@@ -15,6 +15,8 @@ This project was created as a starting point for personal learning — a way to 
 
 See [TABLE.md](TABLE.md) for the full list of analyzed projects.
 
+See [COMPARISONS.md](COMPARISONS.md) for architecture comparisons between similar projects.
+
 ## Report Format
 
 Each report consists of a single file at `oss/{project-name}/README.md` and includes the following sections:
