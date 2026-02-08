@@ -17,13 +17,13 @@ This project was created as a starting point for personal learning — a way to 
 
 ## Reports
 
-See [ROADMAP.md](ROADMAP.md) for a guided learning path organized by difficulty level and theme.
+See [ROADMAP.md](docs/ROADMAP.md) for a guided learning path organized by difficulty level and theme.
 
-See [TABLE.md](TABLE.md) for the full list of analyzed projects.
+See [TABLE.md](docs/TABLE.md) for the full list of analyzed projects.
 
-See [COMPARISONS.md](COMPARISONS.md) for architecture comparisons between similar projects.
+See [COMPARISONS.md](docs/COMPARISONS.md) for architecture comparisons between similar projects.
 
-See [PATTERNS.md](PATTERNS.md) for a cross-reference of recurring design patterns found across projects.
+See [PATTERNS.md](docs/PATTERNS.md) for a cross-reference of recurring design patterns found across projects.
 
 ## Report Format
 
