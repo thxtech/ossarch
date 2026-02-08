@@ -89,9 +89,7 @@ After writing the report, update the following documents to keep them in sync:
 
 1. docs/ROADMAP.md: Add the new project to the appropriate difficulty level (Beginner / Intermediate / Advanced) based on architectural complexity. Also check if it fits any existing Learning Paths or warrants a new one.
 
-2. docs/COMPARISONS.md: Check if the new project is similar to any existing comparison group (e.g., a new database should be considered for the Key-Value Stores or Database sections). If a good comparison exists, add a new section or extend an existing one.
-
-3. docs/PATTERNS.md: Check if the new project uses any design patterns already documented (Plugin Architecture, WAL, Raft, Pipeline, etc.). Add the project to the relevant pattern tables with a brief description of its implementation.
+2. docs/PATTERNS.md: Check if the new project uses any design patterns already documented (Plugin Architecture, WAL, Raft, Pipeline, etc.). Add the project to the relevant pattern tables with a brief description of its implementation.
 
 Run `bash scripts/audit-docs.sh` to verify consistency after updates.
 
