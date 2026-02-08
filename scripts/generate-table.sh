@@ -8,7 +8,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ROOT_DIR="$SCRIPT_DIR/.."
 OSS_DIR="$ROOT_DIR/oss"
-OUTPUT="$ROOT_DIR/TABLE.md"
+OUTPUT="$ROOT_DIR/docs/TABLE.md"
 
 # Temporary files
 TMPFILE=$(mktemp)
@@ -37,7 +37,7 @@ for readme in "$OSS_DIR"/*/README.md; do
   category=$(grep "^| Category |" "$readme" | sed 's/^| Category | //' | sed 's/ |$//')
 
   # Build table row: category\tname\trow (without Category column)
-  printf '%s\t%s\t| [%s](oss/%s/README.md) | %s | %s |\n' \
+  printf '%s\t%s\t| [%s](../oss/%s/README.md) | %s | %s |\n' \
     "$category" "$name" "$name" "$dir" "$description" "$language" >> "$TMPFILE"
 
   PROJECT_COUNT=$((PROJECT_COUNT + 1))

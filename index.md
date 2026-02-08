@@ -19,7 +19,7 @@ This project was created as a starting point for personal learning — a way to 
 
 ## Reports
 
-See [TABLE](TABLE.md) for the full list of analyzed projects.
+See [TABLE](docs/TABLE.md) for the full list of analyzed projects.
 
 ## Report Format
 
