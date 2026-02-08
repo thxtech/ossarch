@@ -1,0 +1,17 @@
+name: Request a new OSS report
+description: Request an architecture report for an OSS project
+title: "Request: "
+labels: ["request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Just fill in the OSS project name below. No other details needed.
+  - type: input
+    id: project
+    attributes:
+      label: OSS Project Name
+      description: Name of the project (e.g., Caddy, Deno, Prometheus)
+      placeholder: e.g. Caddy
+    validations:
+      required: true
