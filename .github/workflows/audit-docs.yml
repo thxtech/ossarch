@@ -1,0 +1,47 @@
+name: Audit Documentation
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "oss/*/README.md"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  audit:
+    if: github.repository_owner == 'thxtech'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Run audit
+        id: audit
+        run: |
+          output=$(bash scripts/audit-docs.sh 2>&1) || true
+          echo "$output"
+          # Save output for PR comment
+          {
+            echo "AUDIT_OUTPUT<<EOF"
+            echo "$output"
+            echo "EOF"
+          } >> "$GITHUB_ENV"
+
+      - name: Comment on PR
+        if: contains(env.AUDIT_OUTPUT, 'WARN') || contains(env.AUDIT_OUTPUT, 'ERROR')
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const output = process.env.AUDIT_OUTPUT;
+            const body = `## Documentation Audit Report\n\n\`\`\`\n${output}\n\`\`\`\n\nPlease update the supplementary documents (ROADMAP.md, COMPARISONS.md, PATTERNS.md) for new projects.\n\nRun \`bash scripts/audit-docs.sh\` locally to check.`;
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
