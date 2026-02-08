@@ -3,20 +3,20 @@
 | Project | Description | Language | Category |
 |---|---|---|---|
 | [Go Ethereum (Geth)](oss/go-ethereum/README.md) | Official Go implementation of the Ethereum protocol - the execution layer client for the Ethereum blockchain | Go | Blockchain |
-| [esbuild](oss/esbuild/README.md) | An extremely fast JavaScript and CSS bundler written in Go | Go | Build Tool |
 | [SWC](oss/swc/README.md) | Speedy Web Compiler: A super-fast TypeScript/JavaScript compiler written in Rust | Rust | Build Tool |
 | [Turborepo](oss/turborepo/README.md) | High-performance build system for JavaScript and TypeScript codebases, written in Rust | Rust | Build Tool |
 | [Vite](oss/vite/README.md) | Next generation frontend tooling that provides instant server start and lightning fast Hot Module Replacement (HMR). | TypeScript | Build Tool |
-| [fzf](oss/fzf/README.md) | A general-purpose command-line fuzzy finder written in Go | Go | CLI Tool |
+| [esbuild](oss/esbuild/README.md) | An extremely fast JavaScript and CSS bundler written in Go | Go | Build Tool |
 | [Starship](oss/starship/README.md) | The minimal, blazing-fast, and infinitely customizable prompt for any shell | Rust | CLI Tool |
+| [fzf](oss/fzf/README.md) | A general-purpose command-line fuzzy finder written in Go | Go | CLI Tool |
 | [Supabase](oss/supabase/README.md) | The open-source Postgres development platform -- building Firebase-like features using enterprise-grade open-source tools on top of PostgreSQL. | TypeScript | Cloud Platform |
 | [Docker Compose](oss/compose/README.md) | Define and run multi-container applications with Docker | Go | Container Orchestration |
 | [Helm](oss/helm/README.md) | The Kubernetes Package Manager | Go | Container Orchestration |
 | [Kubernetes](oss/kubernetes/README.md) | Production-grade container scheduling and management system for automating deployment, scaling, and operations of application containers across clusters of hosts. | Go | Container Orchestration |
 | [Nomad](oss/nomad/README.md) | A simple and flexible workload orchestrator to deploy and manage containers, non-containerized applications, and virtual machines across on-prem and clouds at scale | Go | Container Orchestration |
-| [containerd](oss/containerd/README.md) | An industry-standard container runtime with an emphasis on simplicity, robustness, and portability | Go | Container Runtime |
 | [Moby (Docker Engine)](oss/moby/README.md) | The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems | Go | Container Runtime |
 | [Podman](oss/podman/README.md) | A daemonless tool for managing OCI containers, pods, and images with Docker-compatible CLI | Go | Container Runtime |
+| [containerd](oss/containerd/README.md) | An industry-standard container runtime with an emphasis on simplicity, robustness, and portability | Go | Container Runtime |
 | [Apache Arrow](oss/arrow/README.md) | Universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics | C++ | Data Processing |
 | [Apache Flink](oss/flink/README.md) | A distributed stream processing framework for stateful computations over unbounded and bounded data streams | Java | Data Processing |
 | [Apache Kafka](oss/kafka/README.md) | A distributed event streaming platform for high-throughput, fault-tolerant data pipelines and real-time analytics | Java | Data Processing |
@@ -29,7 +29,6 @@
 | [CockroachDB](oss/cockroachdb/README.md) | A cloud-native, distributed SQL database designed for high availability, effortless scale, and control over data placement. | Go | Database |
 | [Dgraph](oss/dgraph/README.md) | A horizontally scalable and distributed GraphQL database with a graph backend | Go | Database |
 | [DuckDB](oss/duckdb/README.md) | An in-process analytical SQL database management system for OLAP workloads | C++ | Database |
-| [etcd](oss/etcd/README.md) | Distributed reliable key-value store for the most critical data of a distributed system | Go | Database |
 | [InfluxDB](oss/influxdb/README.md) | Scalable datastore for metrics, events, and real-time analytics | Rust | Database |
 | [MinIO](oss/minio/README.md) | A high-performance, S3-compatible object storage solution for AI/ML, analytics, and data-intensive workloads | Go | Database |
 | [Qdrant](oss/qdrant/README.md) | High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI | Rust | Database |
@@ -40,6 +39,7 @@
 | [TiKV](oss/tikv/README.md) | A distributed transactional key-value database powered by Rust and Raft, originally created to complement TiDB | Rust | Database |
 | [Vitess](oss/vitess/README.md) | A cloud-native horizontally-scalable distributed database system built around MySQL | Go | Database |
 | [Weaviate](oss/weaviate/README.md) | An open-source, cloud-native vector database that stores both objects and vectors, enabling semantic search and RAG applications at scale | Go | Database |
+| [etcd](oss/etcd/README.md) | Distributed reliable key-value store for the most critical data of a distributed system | Go | Database |
 | [Excalidraw](oss/excalidraw/README.md) | Virtual whiteboard for sketching hand-drawn like diagrams | TypeScript | Desktop Application |
 | [Tauri](oss/tauri/README.md) | Build smaller, faster, and more secure desktop and mobile applications with a web frontend | Rust | Desktop Application |
 | [Backstage](oss/backstage/README.md) | An open framework for building developer portals powered by a centralized software catalog | TypeScript | Developer Tool |
