@@ -13,6 +13,8 @@ This project was created as a starting point for personal learning — a way to 
 
 ## Reports
 
+See [ROADMAP.md](ROADMAP.md) for a guided learning path organized by difficulty level and theme.
+
 See [TABLE.md](TABLE.md) for the full list of analyzed projects.
 
 See [COMPARISONS.md](COMPARISONS.md) for architecture comparisons between similar projects.
