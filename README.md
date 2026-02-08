@@ -11,6 +11,10 @@ This project was created as a starting point for personal learning — a way to 
 - Encourage deeper exploration by summarizing key design patterns, trade-offs, and takeaways
 - Manage reports in a reproducible format, designed for AI (LLM) generation
 
+## Reports
+
+See [TABLE.md](TABLE.md) for the full list of analyzed projects.
+
 ## Report Format
 
 Each report consists of a single file at `oss/{project-name}/README.md` and includes the following sections:
