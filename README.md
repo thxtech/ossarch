@@ -4,8 +4,11 @@ A knowledge repository that analyzes and documents the architecture of well-know
 
 ## Purpose
 
-- Systematically document the internal design and architecture of notable OSS projects
-- Dig into the "why" behind design decisions and extract insights applicable to other projects
+This project was created as a starting point for personal learning — a way to spark curiosity about how real-world open source software is designed and built.
+
+- Provide a lightweight entry point for studying the architecture of notable OSS projects
+- Dig into the "why" behind design decisions and extract insights applicable to your own projects
+- Encourage deeper exploration by summarizing key design patterns, trade-offs, and takeaways
 - Manage reports in a reproducible format, designed for AI (LLM) generation
 
 ## Report Format
