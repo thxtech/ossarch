@@ -23,6 +23,8 @@ See [TABLE.md](TABLE.md) for the full list of analyzed projects.
 
 See [COMPARISONS.md](COMPARISONS.md) for architecture comparisons between similar projects.
 
+See [PATTERNS.md](PATTERNS.md) for a cross-reference of recurring design patterns found across projects.
+
 ## Report Format
 
 Each report consists of a single file at `oss/{project-name}/README.md` and includes the following sections:
