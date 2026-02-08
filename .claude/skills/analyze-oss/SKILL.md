@@ -83,11 +83,23 @@ Write the report to `oss/{project-name}/README.md` following these rules:
 - Be specific — reference actual file paths, function names, and module names from the source code
 - Prioritize accuracy. If uncertain about implementation details, note it rather than guessing
 
-## Step 6: Clean up cloned repositories
+## Step 6: Update supplementary documents
+
+After writing the report, update the following documents to keep them in sync:
+
+1. ROADMAP.md: Add the new project to the appropriate difficulty level (Beginner / Intermediate / Advanced) based on architectural complexity. Also check if it fits any existing Learning Paths or warrants a new one.
+
+2. COMPARISONS.md: Check if the new project is similar to any existing comparison group (e.g., a new database should be considered for the Key-Value Stores or Database sections). If a good comparison exists, add a new section or extend an existing one.
+
+3. PATTERNS.md: Check if the new project uses any design patterns already documented (Plugin Architecture, WAL, Raft, Pipeline, etc.). Add the project to the relevant pattern tables with a brief description of its implementation.
+
+Run `bash scripts/audit-docs.sh` to verify consistency after updates.
+
+## Step 7: Clean up cloned repositories
 
 CRITICAL: If you cloned any repository during the analysis (e.g., `gh repo clone`, `git clone`), you MUST delete it before finishing. Cloned repositories must NEVER be left in the workspace. Run `rm -rf {cloned-directory}` for every repository you cloned. Failure to clean up is unacceptable — always verify with `find` that no `.git` directories remain outside of the project root.
 
-## Step 7: Verify
+## Step 8: Verify
 
 - Read back the generated file and verify all sections are complete
 - Ensure all Mermaid diagrams have valid syntax
