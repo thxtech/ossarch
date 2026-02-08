@@ -1,7 +1,7 @@
 name: Update OSS Table
 
 on:
-  push:
+  pull_request:
     branches: [main]
     paths:
       - "oss/*/README.md"
@@ -14,8 +14,10 @@ jobs:
     if: github.repository_owner == 'thxtech'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout PR branch
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
 
       - name: Generate table
         run: bash scripts/generate-table.sh
