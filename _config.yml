@@ -1,0 +1,16 @@
+title: OSS Architecture Reports
+description: AI-generated architecture reports for 100+ notable OSS projects
+remote_theme: just-the-docs/just-the-docs
+
+url: https://thxtech.github.io
+baseurl: /ossarch
+
+nav_enabled: true
+search_enabled: true
+
+exclude:
+  - scripts/
+  - .claude/
+  - CLAUDE.md
+  - Taskfile.yaml
+  - Gemfile.lock
