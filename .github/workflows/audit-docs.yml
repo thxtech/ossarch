@@ -38,7 +38,7 @@ jobs:
         with:
           script: |
             const output = process.env.AUDIT_OUTPUT;
-            const body = `## Documentation Audit Report\n\n\`\`\`\n${output}\n\`\`\`\n\nPlease update the supplementary documents (docs/ROADMAP.md, docs/COMPARISONS.md, docs/PATTERNS.md) for new projects.\n\nRun \`bash scripts/audit-docs.sh\` locally to check.`;
+            const body = `## Documentation Audit Report\n\n\`\`\`\n${output}\n\`\`\`\n\nPlease update the supplementary documents (docs/ROADMAP.md, docs/PATTERNS.md) for new projects.\n\nRun \`bash scripts/audit-docs.sh\` locally to check.`;
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,

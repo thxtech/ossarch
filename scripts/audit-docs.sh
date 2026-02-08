@@ -3,14 +3,13 @@ set -euo pipefail
 
 # Audit consistency between oss/ reports and supplementary documents
 # Checks that every project appears in TABLE.md and ROADMAP.md
-# Reports projects missing from COMPARISONS.md and PATTERNS.md
+# Reports projects missing from PATTERNS.md
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ROOT_DIR="$SCRIPT_DIR/.."
 
 TABLE="$ROOT_DIR/docs/TABLE.md"
 ROADMAP="$ROOT_DIR/docs/ROADMAP.md"
-COMPARISONS="$ROOT_DIR/docs/COMPARISONS.md"
 PATTERNS="$ROOT_DIR/docs/PATTERNS.md"
 
 errors=0
@@ -71,17 +70,6 @@ else
   done
   warnings=$((warnings + ${#roadmap_missing[@]}))
 fi
-echo ""
-
-# --- COMPARISONS.md check (informational) ---
-echo "--- COMPARISONS.md ---"
-comp_count=0
-for p in "${projects[@]}"; do
-  if grep -q "oss/${p}/README.md" "$COMPARISONS" 2>/dev/null; then
-    comp_count=$((comp_count + 1))
-  fi
-done
-echo "Coverage: $comp_count / $total projects referenced"
 echo ""
 
 # --- PATTERNS.md check (informational) ---

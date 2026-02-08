@@ -1,6 +1,6 @@
 ---
 name: update-docs
-description: Update all supplementary documents (TABLE, ROADMAP, COMPARISONS, PATTERNS) to reflect the current state of oss/ reports. Use when the user asks to update, refresh, or sync documentation.
+description: Update all supplementary documents (TABLE, ROADMAP, PATTERNS) to reflect the current state of oss/ reports. Use when the user asks to update, refresh, or sync documentation.
 allowed-tools: Bash(bash:*), Read, Write, Edit, Glob, Grep
 ---
 
@@ -33,20 +33,7 @@ For each missing project:
 
 Follow the existing writing style. Keep "Why Start Here" / "What You'll Learn" descriptions to one concise sentence.
 
-## Step 4: Update COMPARISONS.md
-
-Read `docs/COMPARISONS.md` to understand the existing comparison groups.
-
-For each project NOT yet referenced in COMPARISONS.md:
-1. Read its `oss/{project}/README.md`
-2. Determine if it belongs to an existing comparison group (e.g., a new KV store belongs in the Key-Value Stores section)
-3. If yes, extend the existing section: add the project to the Design Philosophy, Key Architectural Differences table, and When to Choose summary
-4. If no existing group fits but 2+ similar uncovered projects exist, create a new comparison section following the established format (Design Philosophy, Key Architectural Differences table, When to Choose)
-5. If the project is unique and has no peers, skip it
-
-Do not force projects into comparisons where they do not fit.
-
-## Step 5: Update PATTERNS.md
+## Step 4: Update PATTERNS.md
 
 Read `docs/PATTERNS.md` to understand the documented patterns.
 
@@ -58,12 +45,12 @@ For each project NOT yet referenced in PATTERNS.md:
 
 Keep implementation details concise (2-3 sentences) and specific to the project. Reference actual module names, interfaces, or techniques.
 
-## Step 6: Verify
+## Step 5: Verify
 
 Run `bash scripts/audit-docs.sh` again and confirm:
 - TABLE.md: 0 errors
 - ROADMAP.md: 0 warnings (all projects covered)
-- COMPARISONS.md and PATTERNS.md: coverage improved
+- PATTERNS.md: coverage improved
 
 ## Rules
 
