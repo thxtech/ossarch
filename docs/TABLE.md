@@ -60,6 +60,7 @@
 |---|---|---|
 | [Docker Compose](../oss/compose/README.md) | Define and run multi-container applications with Docker | Go |
 | [Helm](../oss/helm/README.md) | The Kubernetes Package Manager | Go |
+| [k3s](../oss/k3s/README.md) | Lightweight, fully conformant Kubernetes distribution for resource-constrained environments | Go |
 | [Kubernetes](../oss/kubernetes/README.md) | Production-grade container scheduling and management system for automating deployment, scaling, and operations of application containers across clusters of hosts. | Go |
 | [Nomad](../oss/nomad/README.md) | A simple and flexible workload orchestrator to deploy and manage containers, non-containerized applications, and virtual machines across on-prem and clouds at scale | Go |
 
@@ -88,21 +89,35 @@
 
 | Project | Description | Language |
 |---|---|---|
+| [Apache Cassandra](../oss/cassandra/README.md) | A highly scalable, distributed NoSQL database designed for handling large amounts of data across many commodity servers with no single point of failure. | Java |
+| [Badger](../oss/badger/README.md) | High-performance, embeddable key-value store written in pure Go based on the WiscKey architecture | Go |
+| [Ceph](../oss/ceph/README.md) | Distributed storage system providing object, block, and file storage in a single unified platform | C++ |
 | [ClickHouse](../oss/clickhouse/README.md) | A real-time analytics database management system with column-oriented storage architecture | C++ |
 | [CockroachDB](../oss/cockroachdb/README.md) | A cloud-native, distributed SQL database designed for high availability, effortless scale, and control over data placement. | Go |
 | [Dgraph](../oss/dgraph/README.md) | A horizontally scalable and distributed GraphQL database with a graph backend | Go |
+| [Dragonfly](../oss/dragonfly/README.md) | A modern replacement for Redis and Memcached with a multi-threaded, shared-nothing architecture | C++ |
 | [DuckDB](../oss/duckdb/README.md) | An in-process analytical SQL database management system for OLAP workloads | C++ |
 | [etcd](../oss/etcd/README.md) | Distributed reliable key-value store for the most critical data of a distributed system | Go |
+| [FoundationDB](../oss/foundationdb/README.md) | A distributed, transactional key-value store designed to handle large volumes of structured data across clusters of commodity servers, with industry-leading correctness guarantees through deterministic simulation testing. | C++ |
 | [InfluxDB](../oss/influxdb/README.md) | Scalable datastore for metrics, events, and real-time analytics | Rust |
+| [JuiceFS](../oss/juicefs/README.md) | High-performance, POSIX-compatible distributed filesystem built on top of object storage and metadata engines | Go |
 | [MinIO](../oss/minio/README.md) | A high-performance, S3-compatible object storage solution for AI/ML, analytics, and data-intensive workloads | Go |
+| [MongoDB](../oss/mongodb/README.md) | The most popular document-oriented NoSQL database, designed for scalability and developer productivity. | C++ |
+| [Neon](../oss/neon/README.md) | Serverless Postgres with separated storage and compute offering autoscaling, branching, and scale to zero | Rust |
+| [Pebble](../oss/pebble/README.md) | LevelDB/RocksDB-inspired key-value store in Go, the primary storage engine for CockroachDB | Go |
+| [PostgreSQL](../oss/postgresql/README.md) | The world's most advanced open source relational database management system. | C |
 | [Qdrant](../oss/qdrant/README.md) | High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI | Rust |
 | [Redis](../oss/redis/README.md) | The preferred, fastest, and most feature-rich in-memory data structure server, cache, and real-time data engine for developers building data-driven applications. | C |
 | [RocksDB](../oss/rocksdb/README.md) | A library that provides an embeddable, persistent key-value store for fast storage | C++ |
 | [Rook](../oss/rook/README.md) | Storage Orchestration for Kubernetes | Go |
+| [ScyllaDB](../oss/scylladb/README.md) | A high-performance NoSQL database compatible with Apache Cassandra and Amazon DynamoDB, built on the Seastar framework with a shard-per-core architecture. | C++ |
+| [SurrealDB](../oss/surrealdb/README.md) | A scalable, distributed, collaborative, document-graph database for the realtime web | Rust |
 | [TiDB](../oss/tidb/README.md) | An open-source, cloud-native, distributed SQL database designed for modern applications | Go |
 | [TiKV](../oss/tikv/README.md) | A distributed transactional key-value database powered by Rust and Raft, originally created to complement TiDB | Rust |
+| [Valkey](../oss/valkey/README.md) | A flexible distributed key-value database optimized for caching and other realtime workloads | C |
 | [Vitess](../oss/vitess/README.md) | A cloud-native horizontally-scalable distributed database system built around MySQL | Go |
 | [Weaviate](../oss/weaviate/README.md) | An open-source, cloud-native vector database that stores both objects and vectors, enabling semantic search and RAG applications at scale | Go |
+| [YugabyteDB](../oss/yugabytedb/README.md) | The cloud native distributed SQL database for mission-critical applications | C / C++ |
 
 ## Desktop Application
 
@@ -181,6 +196,7 @@
 | [Consul](../oss/consul/README.md) | A distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure. | Go |
 | [CoreDNS](../oss/coredns/README.md) | A DNS server that chains plugins | Go |
 | [Envoy](../oss/envoy/README.md) | Cloud-native high-performance edge/middle/service proxy | C++ |
+| [ExternalDNS](../oss/external-dns/README.md) | Automatic DNS record management for Kubernetes resources | Go |
 | [Istio](../oss/istio/README.md) | Connect, secure, control, and observe services. | Go |
 | [Linkerd2](../oss/linkerd2/README.md) | Ultralight, security-first service mesh for Kubernetes | Go |
 | [Traefik](../oss/traefik/README.md) | The Cloud Native Application Proxy - a modern HTTP reverse proxy and load balancer for deploying microservices | Go |
@@ -200,15 +216,21 @@
 | Project | Description | Language |
 |---|---|---|
 | [Elasticsearch](../oss/elasticsearch/README.md) | Free and open source, distributed, RESTful search and analytics engine built on Apache Lucene. | Java |
+| [Meilisearch](../oss/meilisearch/README.md) | Lightning-fast, typo-tolerant search engine providing full-text, semantic, and hybrid search via RESTful API | Rust |
 
 ## Security
 
 | Project | Description | Language |
 |---|---|---|
+| [cert-manager Architecture Report](../oss/cert-manager/README.md) | | Item | Detail | | Go |
+| [Cosign](../oss/cosign/README.md) | Container image signing and verification for software supply chain security | Go |
 | [Falco](../oss/falco/README.md) | Cloud Native Runtime Security tool for Linux operating systems | C++ |
 | [Harbor](../oss/harbor/README.md) | An open source trusted cloud native registry project that stores, signs, and scans content | Go |
 | [HashiCorp Vault](../oss/vault/README.md) | A tool for secrets management, encryption as a service, and privileged access management | Go |
 | [Keycloak](../oss/keycloak/README.md) | Open Source Identity and Access Management For Modern Applications and Services | Java |
+| [Kyverno](../oss/kyverno/README.md) | Kubernetes-native policy management for security, compliance, and operational best practices | Go |
+| [OPA (Open Policy Agent)](../oss/opa/README.md) | General-purpose policy engine for unified policy enforcement across the stack | Go |
+| [SPIRE](../oss/spire/README.md) | SPIFFE Runtime Environment for workload identity in distributed systems | Go |
 | [Trivy](../oss/trivy/README.md) | A comprehensive security scanner for containers, Kubernetes, code repositories, and cloud environments | Go |
 
 ## Static Site Generator
@@ -222,14 +244,19 @@
 | Project | Description | Language |
 |---|---|---|
 | [Angular](../oss/angular/README.md) | Deliver web apps with confidence - The modern web developer's platform | TypeScript |
+| [Astro](../oss/astro/README.md) | A content-focused web framework pioneering the Islands Architecture for optimal performance | TypeScript |
 | [FastAPI](../oss/fastapi/README.md) | A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints | Python |
 | [Gin](../oss/gin/README.md) | A high-performance HTTP web framework for Go, featuring a Martini-like API with up to 40x better performance thanks to a radix tree based router. | Go |
+| [Hono](../oss/hono/README.md) | Ultrafast, lightweight web framework built on Web Standards APIs for any JavaScript runtime | TypeScript |
+| [htmx](../oss/htmx/README.md) | A JavaScript library extending HTML with AJAX capabilities through declarative attributes | JavaScript |
 | [Leptos](../oss/leptos/README.md) | Build fast web applications with Rust | Rust |
 | [NestJS](../oss/nestjs/README.md) | A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript | TypeScript |
 | [Next.js](../oss/nextjs/README.md) | The React Framework for full-stack web applications, extending React with server-side rendering, file-system routing, and Rust-based tooling for the fastest builds. | JavaScript / TypeScript / Rust |
+| [Nuxt](../oss/nuxt/README.md) | The full-stack Vue.js meta-framework for universal web applications | TypeScript |
 | [Quarkus](../oss/quarkus/README.md) | Supersonic Subatomic Java - A Cloud Native, Container First framework for writing Java applications | Java |
 | [React](../oss/react/README.md) | The library for web and native user interfaces | JavaScript |
 | [Remix](../oss/remix/README.md) | Build Better Websites. Create modern, resilient user experiences with web fundamentals. | TypeScript |
+| [Ruby on Rails](../oss/rails/README.md) | Full-stack web application framework with convention over configuration | Ruby |
 | [SolidJS](../oss/solid/README.md) | A declarative, efficient, and flexible JavaScript library for building user interfaces with fine-grained reactivity | TypeScript |
 | [Spring Boot](../oss/spring-boot/README.md) | Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss | Java |
 | [Svelte](../oss/svelte/README.md) | A compiler-first JavaScript framework that converts declarative components into efficient JavaScript that surgically updates the DOM | JavaScript |

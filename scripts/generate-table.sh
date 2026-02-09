@@ -83,4 +83,10 @@ cut -f1 "${TMPFILE}.sorted" | uniq > "${TMPFILE}.categories"
   done < "${TMPFILE}.sorted"
 } > "$OUTPUT"
 
+# Update Reports badge in README.md with actual count
+README="$ROOT_DIR/README.md"
+if [ -f "$README" ]; then
+  sed -i '' "s|Reports-[0-9A-Za-z%]*-blue|Reports-${PROJECT_COUNT}-blue|" "$README"
+fi
+
 echo "Generated TABLE.md with $PROJECT_COUNT projects"

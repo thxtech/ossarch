@@ -1,7 +1,7 @@
 # OSS Architecture Reports
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Reports](https://img.shields.io/badge/Reports-100%2B-blue.svg)
+![Reports](https://img.shields.io/badge/Reports-127-blue.svg)
 ![AI Generated](https://img.shields.io/badge/Generated%20by-AI-purple.svg)
 
 A knowledge repository that analyzes and documents the architecture of well-known open source software using AI.
