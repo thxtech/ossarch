@@ -24,6 +24,7 @@
 - [Security](#security)
 - [Static Site Generator](#static-site-generator)
 - [Web Framework](#web-framework)
+- [Web Server](#web-server)
 - [Workflow Engine](#workflow-engine)
 
 ## Blockchain
@@ -46,6 +47,9 @@
 | Project | Description | Language |
 |---|---|---|
 | [fzf](https://github.com/thxtech/ossarch/blob/main/oss/fzf/README.md) | A general-purpose command-line fuzzy finder written in Go | Go |
+| [jq](https://github.com/thxtech/ossarch/blob/main/oss/jq/README.md) | Command-line JSON processor | C |
+| [Restic](https://github.com/thxtech/ossarch/blob/main/oss/restic/README.md) | Fast, secure, and efficient backup program with content-addressable storage, encryption, and deduplication | Go |
+| [ripgrep](https://github.com/thxtech/ossarch/blob/main/oss/ripgrep/README.md) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | Rust |
 | [Starship](https://github.com/thxtech/ossarch/blob/main/oss/starship/README.md) | The minimal, blazing-fast, and infinitely customizable prompt for any shell | Rust |
 
 ## Cloud Platform
@@ -81,8 +85,11 @@
 | [Apache Kafka](https://github.com/thxtech/ossarch/blob/main/oss/kafka/README.md) | A distributed event streaming platform for high-throughput, fault-tolerant data pipelines and real-time analytics | Java |
 | [Apache Pulsar](https://github.com/thxtech/ossarch/blob/main/oss/pulsar/README.md) | A distributed pub-sub messaging platform with multi-tenancy and geo-replication built-in | Java |
 | [Apache Spark](https://github.com/thxtech/ossarch/blob/main/oss/spark/README.md) | A unified analytics engine for large-scale data processing | Scala |
+| [FFmpeg](https://github.com/thxtech/ossarch/blob/main/oss/ffmpeg/README.md) | A complete cross-platform solution for recording, converting, and streaming audio and video with a comprehensive library of codecs, formats, and filters | C |
 | [NATS Server](https://github.com/thxtech/ossarch/blob/main/oss/nats-server/README.md) | High-performance server for NATS.io, the cloud and edge native messaging system. | Go |
 | [Polars](https://github.com/thxtech/ossarch/blob/main/oss/polars/README.md) | Extremely fast Query Engine for DataFrames, written in Rust | Rust |
+| [PyTorch](https://github.com/thxtech/ossarch/blob/main/oss/pytorch/README.md) | Tensors and dynamic neural networks in Python with strong GPU acceleration, providing a flexible deep learning framework with an imperative programming model. | Python |
+| [RabbitMQ](https://github.com/thxtech/ossarch/blob/main/oss/rabbitmq-server/README.md) | Open-source message broker implementing AMQP, MQTT, and STOMP protocols for reliable asynchronous messaging | Erlang |
 | [Ray](https://github.com/thxtech/ossarch/blob/main/oss/ray/README.md) | A unified framework for scaling AI and Python applications with distributed computing | Python |
 
 ## Database
@@ -123,6 +130,7 @@
 
 | Project | Description | Language |
 |---|---|---|
+| [Electron](https://github.com/thxtech/ossarch/blob/main/oss/electron/README.md) | Build cross-platform desktop apps with JavaScript, HTML, and CSS | C++ |
 | [Excalidraw](https://github.com/thxtech/ossarch/blob/main/oss/excalidraw/README.md) | Virtual whiteboard for sketching hand-drawn like diagrams | TypeScript |
 | [Tauri](https://github.com/thxtech/ossarch/blob/main/oss/tauri/README.md) | Build smaller, faster, and more secure desktop and mobile applications with a web frontend | Rust |
 
@@ -133,7 +141,9 @@
 | [Backstage](https://github.com/thxtech/ossarch/blob/main/oss/backstage/README.md) | An open framework for building developer portals powered by a centralized software catalog | TypeScript |
 | [Buf](https://github.com/thxtech/ossarch/blob/main/oss/buf/README.md) | The best way of working with Protocol Buffers, providing linting, breaking change detection, code generation, and Schema Registry integration | Go |
 | [Dagger](https://github.com/thxtech/ossarch/blob/main/oss/dagger/README.md) | A programmable CI/CD automation engine that builds, tests and ships any codebase, running locally, in CI, or directly in the cloud | Go |
+| [Flutter](https://github.com/thxtech/ossarch/blob/main/oss/flutter/README.md) | Flutter makes it easy and fast to build beautiful apps for mobile and beyond | Dart |
 | [Gitea](https://github.com/thxtech/ossarch/blob/main/oss/gitea/README.md) | Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | Go |
+| [Ollama](https://github.com/thxtech/ossarch/blob/main/oss/ollama/README.md) | Get up and running with large language models locally, providing a streamlined interface for downloading, managing, and running LLMs on personal hardware. | Go |
 | [Ruff](https://github.com/thxtech/ossarch/blob/main/oss/ruff/README.md) | An extremely fast Python linter and code formatter, written in Rust | Rust |
 | [rust-analyzer](https://github.com/thxtech/ossarch/blob/main/oss/rust-analyzer/README.md) | A Rust compiler front-end for IDEs, providing language server protocol (LSP) support for Rust code intelligence. | Rust |
 
@@ -160,6 +170,7 @@
 | Project | Description | Language |
 |---|---|---|
 | [Bevy](https://github.com/thxtech/ossarch/blob/main/oss/bevy/README.md) | A refreshingly simple data-driven game engine built in Rust | Rust |
+| [Godot](https://github.com/thxtech/ossarch/blob/main/oss/godot/README.md) | Multi-platform 2D and 3D game engine with an integrated development environment and its own scripting language | C++ |
 
 ## GitOps
 
@@ -172,6 +183,7 @@
 
 | Project | Description | Language |
 |---|---|---|
+| [Ansible](https://github.com/thxtech/ossarch/blob/main/oss/ansible/README.md) | Radically simple IT automation platform for application deployment, configuration management, and orchestration | Python |
 | [Crossplane](https://github.com/thxtech/ossarch/blob/main/oss/crossplane/README.md) | The Cloud Native Control Plane - A framework for building cloud native control planes without writing code | Go |
 | [OpenTofu](https://github.com/thxtech/ossarch/blob/main/oss/opentofu/README.md) | A truly open-source infrastructure as code tool for declaratively managing cloud infrastructure | Go |
 | [Terraform](https://github.com/thxtech/ossarch/blob/main/oss/terraform/README.md) | A source-available infrastructure-as-code tool that codifies APIs into declarative configuration files for safe and predictable infrastructure provisioning. | Go |
@@ -183,9 +195,11 @@
 | [Cortex](https://github.com/thxtech/ossarch/blob/main/oss/cortex/README.md) | A horizontally scalable, highly available, multi-tenant, long-term storage solution for Prometheus and OpenTelemetry Metrics | Go |
 | [Grafana](https://github.com/thxtech/ossarch/blob/main/oss/grafana/README.md) | The open and composable observability and data visualization platform for metrics, logs, and traces from multiple sources. | TypeScript / Go |
 | [Grafana Loki](https://github.com/thxtech/ossarch/blob/main/oss/loki/README.md) | Like Prometheus, but for logs -- a horizontally-scalable, highly-available, multi-tenant log aggregation system | Go |
+| [Jaeger](https://github.com/thxtech/ossarch/blob/main/oss/jaeger/README.md) | CNCF distributed tracing platform for monitoring and troubleshooting microservice architectures | Go |
 | [OpenTelemetry Collector](https://github.com/thxtech/ossarch/blob/main/oss/opentelemetry-collector/README.md) | A vendor-agnostic implementation to receive, process, and export telemetry data (traces, metrics, and logs) | Go |
 | [Prometheus](https://github.com/thxtech/ossarch/blob/main/oss/prometheus/README.md) | The Prometheus monitoring system and time series database | Go |
 | [Thanos](https://github.com/thxtech/ossarch/blob/main/oss/thanos/README.md) | Highly available Prometheus setup with long term storage capabilities | Go |
+| [Vector](https://github.com/thxtech/ossarch/blob/main/oss/vector/README.md) | High-performance observability data pipeline for collecting, transforming, and routing logs, metrics, and traces | Rust |
 
 ## Networking
 
@@ -197,6 +211,7 @@
 | [CoreDNS](https://github.com/thxtech/ossarch/blob/main/oss/coredns/README.md) | A DNS server that chains plugins | Go |
 | [Envoy](https://github.com/thxtech/ossarch/blob/main/oss/envoy/README.md) | Cloud-native high-performance edge/middle/service proxy | C++ |
 | [ExternalDNS](https://github.com/thxtech/ossarch/blob/main/oss/external-dns/README.md) | Automatic DNS record management for Kubernetes resources | Go |
+| [gRPC](https://github.com/thxtech/ossarch/blob/main/oss/grpc/README.md) | High-performance, open-source universal RPC framework built on HTTP/2 and Protocol Buffers | C++ |
 | [Istio](https://github.com/thxtech/ossarch/blob/main/oss/istio/README.md) | Connect, secure, control, and observe services. | Go |
 | [Linkerd2](https://github.com/thxtech/ossarch/blob/main/oss/linkerd2/README.md) | Ultralight, security-first service mesh for Kubernetes | Go |
 | [Traefik](https://github.com/thxtech/ossarch/blob/main/oss/traefik/README.md) | The Cloud Native Application Proxy - a modern HTTP reverse proxy and load balancer for deploying microservices | Go |
@@ -206,10 +221,12 @@
 | Project | Description | Language |
 |---|---|---|
 | [Bun](https://github.com/thxtech/ossarch/blob/main/oss/bun/README.md) | Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one | Zig |
+| [CPython](https://github.com/thxtech/ossarch/blob/main/oss/cpython/README.md) | The reference implementation of the Python programming language | Python |
 | [Dapr](https://github.com/thxtech/ossarch/blob/main/oss/dapr/README.md) | A portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration | Go |
 | [Deno](https://github.com/thxtech/ossarch/blob/main/oss/deno/README.md) | A modern runtime for JavaScript and TypeScript with secure defaults, built on V8, Rust, and Tokio. | Rust |
 | [Tokio](https://github.com/thxtech/ossarch/blob/main/oss/tokio/README.md) | A runtime for writing reliable asynchronous applications with Rust, providing I/O, networking, scheduling, and timers. | Rust |
 | [Wasmtime](https://github.com/thxtech/ossarch/blob/main/oss/wasmtime/README.md) | A lightweight WebAssembly runtime that is fast, secure, and standards-compliant | Rust |
+| [Zig](https://github.com/thxtech/ossarch/blob/main/oss/zig/README.md) | General-purpose systems programming language and toolchain designed for robust, optimal, and reusable software with comptime evaluation and a self-hosted compiler | Zig |
 
 ## Search Engine
 
@@ -217,6 +234,7 @@
 |---|---|---|
 | [Elasticsearch](https://github.com/thxtech/ossarch/blob/main/oss/elasticsearch/README.md) | Free and open source, distributed, RESTful search and analytics engine built on Apache Lucene. | Java |
 | [Meilisearch](https://github.com/thxtech/ossarch/blob/main/oss/meilisearch/README.md) | Lightning-fast, typo-tolerant search engine providing full-text, semantic, and hybrid search via RESTful API | Rust |
+| [Typesense](https://github.com/thxtech/ossarch/blob/main/oss/typesense/README.md) | Open-source, typo-tolerant, in-memory search engine optimized for instant search experiences with a simple RESTful API | C++ |
 
 ## Security
 
@@ -245,6 +263,8 @@
 |---|---|---|
 | [Angular](https://github.com/thxtech/ossarch/blob/main/oss/angular/README.md) | Deliver web apps with confidence - The modern web developer's platform | TypeScript |
 | [Astro](https://github.com/thxtech/ossarch/blob/main/oss/astro/README.md) | A content-focused web framework pioneering the Islands Architecture for optimal performance | TypeScript |
+| [Django](https://github.com/thxtech/ossarch/blob/main/oss/django/README.md) | The Web framework for perfectionists with deadlines, providing a high-level Python framework that encourages rapid development and clean, pragmatic design. | Python |
+| [Express](https://github.com/thxtech/ossarch/blob/main/oss/express/README.md) | Fast, unopinionated, minimalist web framework for Node.js, providing a thin layer of fundamental web application features. | JavaScript |
 | [FastAPI](https://github.com/thxtech/ossarch/blob/main/oss/fastapi/README.md) | A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints | Python |
 | [Gin](https://github.com/thxtech/ossarch/blob/main/oss/gin/README.md) | A high-performance HTTP web framework for Go, featuring a Martini-like API with up to 40x better performance thanks to a radix tree based router. | Go |
 | [Hono](https://github.com/thxtech/ossarch/blob/main/oss/hono/README.md) | Ultrafast, lightweight web framework built on Web Standards APIs for any JavaScript runtime | TypeScript |
@@ -260,6 +280,12 @@
 | [SolidJS](https://github.com/thxtech/ossarch/blob/main/oss/solid/README.md) | A declarative, efficient, and flexible JavaScript library for building user interfaces with fine-grained reactivity | TypeScript |
 | [Spring Boot](https://github.com/thxtech/ossarch/blob/main/oss/spring-boot/README.md) | Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss | Java |
 | [Svelte](https://github.com/thxtech/ossarch/blob/main/oss/svelte/README.md) | A compiler-first JavaScript framework that converts declarative components into efficient JavaScript that surgically updates the DOM | JavaScript |
+
+## Web Server
+
+| Project | Description | Language |
+|---|---|---|
+| [nginx](https://github.com/thxtech/ossarch/blob/main/oss/nginx/README.md) | High-performance HTTP server, reverse proxy, and load balancer built on an event-driven, non-blocking architecture. | C |
 
 ## Workflow Engine
 
