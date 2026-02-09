@@ -37,7 +37,7 @@ for readme in "$OSS_DIR"/*/README.md; do
   category=$(grep "^| Category |" "$readme" | sed 's/^| Category | //' | sed 's/ |$//')
 
   # Build table row: category\tname\trow (without Category column)
-  printf '%s\t%s\t| [%s](../oss/%s/README.md) | %s | %s |\n' \
+  printf '%s\t%s\t| [%s](https://github.com/thxtech/ossarch/blob/main/oss/%s/README.md) | %s | %s |\n' \
     "$category" "$name" "$name" "$dir" "$description" "$language" >> "$TMPFILE"
 
   PROJECT_COUNT=$((PROJECT_COUNT + 1))
