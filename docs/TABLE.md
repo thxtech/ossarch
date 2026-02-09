@@ -222,7 +222,7 @@
 
 | Project | Description | Language |
 |---|---|---|
-| [cert-manager Architecture Report](https://github.com/thxtech/ossarch/blob/main/oss/cert-manager/README.md) | | Item | Detail | | Go |
+| [cert-manager](https://github.com/thxtech/ossarch/blob/main/oss/cert-manager/README.md) | Kubernetes-native certificate management controller for automated TLS certificate lifecycle | Go |
 | [Cosign](https://github.com/thxtech/ossarch/blob/main/oss/cosign/README.md) | Container image signing and verification for software supply chain security | Go |
 | [Falco](https://github.com/thxtech/ossarch/blob/main/oss/falco/README.md) | Cloud Native Runtime Security tool for Linux operating systems | C++ |
 | [Harbor](https://github.com/thxtech/ossarch/blob/main/oss/harbor/README.md) | An open source trusted cloud native registry project that stores, signs, and scans content | Go |
